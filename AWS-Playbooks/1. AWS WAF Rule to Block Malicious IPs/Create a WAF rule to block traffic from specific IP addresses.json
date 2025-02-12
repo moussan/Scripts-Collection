@@ -1,0 +1,28 @@
+{
+  "Name": "BlockMaliciousIPsRule",
+  "Scope": "REGIONAL",
+  "VisibilityConfig": {
+    "SampledRequestsEnabled": true,
+    "CloudWatchMetricsEnabled": true,
+    "MetricName": "BlockedIPRequests"
+  },
+  "Action": {
+    "Block": {}
+  },
+  "Rules": [
+    {
+      "Name": "BlockMaliciousIPs",
+      "Priority": 1,
+      "Statement": {
+        "IPSetReferenceStatement": {
+          "ARN": "arn:aws:wafv2:REGION:ACCOUNT_ID:ipset/BlockIPsSet"
+        }
+      },
+      "VisibilityConfig": {
+        "SampledRequestsEnabled": true,
+        "CloudWatchMetricsEnabled": true,
+        "MetricName": "BlockedIPs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "ResourceArns": [
+    "arn:aws:elasticloadbalancing:REGION:ACCOUNT_ID:loadbalancer/app/ELB_NAME"
+  ],
+  "ProactiveEngagementEnabled": true,
+  "DDoSEmergencyContactList": [
+    {
+      "EmailAddress": "insert-security-email"
+    }
+  ]
+}

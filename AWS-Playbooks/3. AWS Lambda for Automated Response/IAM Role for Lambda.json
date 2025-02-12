@@ -1,0 +1,10 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": "wafv2:UpdateIPSet",
+      "Resource": "arn:aws:wafv2:REGION:ACCOUNT_ID:ipset/BlockIPsSet"
+    }
+  ]
+}

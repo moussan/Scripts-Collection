@@ -1,0 +1,17 @@
+Resources:
+  CloudWatchAlarm:
+    Type: "AWS::CloudWatch::Alarm"
+    Properties:
+      AlarmDescription: "Alarm for traffic spikes indicating potential DDoS"
+      MetricName: "RequestCount"
+      Namespace: "AWS/ApplicationELB"
+      Statistic: "Sum"
+      Period: "60"
+      EvaluationPeriods: "3"
+      Threshold: "10000"
+      ComparisonOperator: "GreaterThanThreshold"
+      AlarmActions:
+        - "arn:aws:sns:REGION:ACCOUNT_ID:TopicName"
+      Dimensions:
+        - Name: "LoadBalancerName"
+          Value: "my-elb"
