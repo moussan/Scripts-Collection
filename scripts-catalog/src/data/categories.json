@@ -1,0 +1,74 @@
+[
+  {
+    "id": "security-engineering",
+    "name": "Security Engineering",
+    "description": "Scripts for security engineering and analysis",
+    "subcategories": ["Penetration Testing", "Vulnerability Assessment", "Security Hardening"]
+  },
+  {
+    "id": "cloud-infra",
+    "name": "Cloud Infrastructure",
+    "description": "Scripts for managing multi-cloud infrastructure",
+    "subcategories": ["Resource Management", "Cost Optimization", "Infrastructure as Code"]
+  },
+  {
+    "id": "cloud-audit",
+    "name": "Cloud Audit",
+    "description": "Cloud security audit and compliance scripts",
+    "subcategories": ["Compliance Checks", "Security Posture", "Access Review"]
+  },
+  {
+    "id": "security-tools",
+    "name": "Security Tools",
+    "description": "Various security tools and utilities",
+    "subcategories": ["Network Security", "Endpoint Security", "Data Protection"]
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress",
+    "description": "WordPress security and maintenance scripts",
+    "subcategories": ["Security Hardening", "Backup", "Performance Optimization"]
+  },
+  {
+    "id": "windows",
+    "name": "Windows",
+    "description": "Windows activation and management scripts",
+    "subcategories": ["System Activation", "System Management", "Security Configuration"]
+  },
+  {
+    "id": "active-directory",
+    "name": "Active Directory",
+    "description": "Active Directory maintenance and management scripts",
+    "subcategories": ["User Management", "Group Policy", "Security Audit"]
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "description": "AWS-specific scripts and playbooks",
+    "subcategories": ["EC2", "S3", "IAM", "Security Groups"]
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "description": "General automation scripts and tools",
+    "subcategories": ["Task Automation", "Process Automation", "Scheduled Tasks"]
+  },
+  {
+    "id": "monitoring",
+    "name": "Monitoring",
+    "description": "System and service monitoring scripts",
+    "subcategories": ["Performance Monitoring", "Log Analysis", "Alert Management"]
+  },
+  {
+    "id": "backup-recovery",
+    "name": "Backup & Recovery",
+    "description": "Data backup and recovery scripts",
+    "subcategories": ["System Backup", "Data Recovery", "Disaster Recovery"]
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "description": "DevOps and CI/CD scripts",
+    "subcategories": ["CI/CD", "Deployment", "Configuration Management"]
+  }
+] 
