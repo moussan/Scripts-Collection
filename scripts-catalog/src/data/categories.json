@@ -1,22 +1,3 @@
-{
-  "categories": [
-    {
-      "id": "security",
-      "name": "Security Engineering",
-      "description": "Scripts for security testing, analysis, and hardening",
-      "subcategories": ["Penetration Testing", "Vulnerability Assessment", "Security Monitoring"]
-    },
-    {
-      "id": "cloud",
-      "name": "Cloud Infrastructure",
-      "description": "Scripts for cloud infrastructure management and automation",
-      "subcategories": ["AWS", "Azure", "GCP", "Multi-cloud"]
-    },
-    {
-      "id": "automation",
-      "name": "Automation",
-      "description": "General purpose automation scripts",
-      "subcategories": ["Task Automation", "Process Automation", "Workflow Automation"]
-    }
-  ]
-} 
+version https://git-lfs.github.com/spec/v1
+oid sha256:3311eadf0aad9c850454b3982cb83befc70a0ff2b6fa1bfe61c928d36cf6bf90
+size 728

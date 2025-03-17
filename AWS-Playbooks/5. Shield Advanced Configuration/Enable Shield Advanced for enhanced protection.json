@@ -1,11 +1,3 @@
-{
-  "ResourceArns": [
-    "arn:aws:elasticloadbalancing:REGION:ACCOUNT_ID:loadbalancer/app/ELB_NAME"
-  ],
-  "ProactiveEngagementEnabled": true,
-  "DDoSEmergencyContactList": [
-    {
-      "EmailAddress": "insert-security-email"
-    }
-  ]
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:72305fdaafdf0049f8d90ad66e50aaa9995de644ea8793ade49a943183168c4c
+size 251
