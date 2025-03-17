@@ -1,11 +1,3 @@
-# Script: Monitor-ADReplication.ps1
-# Description: Checks Active Directory replication status.
-
-# Run replication status check
-$ReplicationStatus = Get-ADReplicationPartnerMetadata -Target (Get-ADDomainController).Name
-
-foreach ($Partner in $ReplicationStatus) {
-    Write-Output "Replication with $($Partner.Partner) - Status: $($Partner.LastReplicationResult)"
-}
-
-# Note: Ensure you have the required permissions to run this.
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d107902c5a9d013975669272bd85811ef533119eec48e6334d3addc5a523785
+size 439

@@ -1,14 +1,3 @@
-# Script: Get-GroupMembershipReport.ps1
-# Description: Exports the group membership details to a CSV file.
-
-# Define the group and output file
-$GroupName = "IT Department"
-$OutputFile = "C:\Reports\GroupMembership.csv"
-
-# Get group members and export
-Get-ADGroupMember -Identity $GroupName | Select-Object Name, SamAccountName, ObjectClass | 
-    Export-Csv -Path $OutputFile -NoTypeInformation
-
-Write-Output "Group membership report saved to $OutputFile"
-
-# Note: Adjust $GroupName and $OutputFile as needed.
+version https://git-lfs.github.com/spec/v1
+oid sha256:4dbdde6d05cd1166647dff26b6c6bb5f75ca88b8e66df816670d2d724b640426
+size 524

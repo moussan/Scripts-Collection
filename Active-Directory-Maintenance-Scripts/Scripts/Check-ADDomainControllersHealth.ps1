@@ -1,15 +1,3 @@
-# Script: Check-ADDomainControllersHealth.ps1
-# Description: Checks the health of all domain controllers in the Active Directory domain.
-
-# Import Active Directory module
-Import-Module ActiveDirectory
-
-# Get all domain controllers
-$DomainControllers = Get-ADDomainController -Filter *
-
-foreach ($DC in $DomainControllers) {
-    Write-Output "Checking health for $($DC.HostName)..."
-    dcdiag /s:$($DC.HostName)
-}
-
-# Note: Adjust $DomainControllers filter if specific domains or conditions are needed.
+version https://git-lfs.github.com/spec/v1
+oid sha256:111f5a6674a6a0b6589a982d9870771383b70e5dfcdd90d3009e0b3e1d8bfd37
+size 517

@@ -1,12 +1,3 @@
-# Script: Find-DuplicateLogins.ps1
-# Description: Finds duplicate SAMAccountNames or UserPrincipalNames.
-
-# Get all users and check for duplicates
-$Users = Get-ADUser -Filter * -Properties SamAccountName, UserPrincipalName
-$Duplicates = $Users | Group-Object -Property SamAccountName, UserPrincipalName | Where-Object { $_.Count -gt 1 }
-
-foreach ($Duplicate in $Duplicates) {
-    Write-Output "Duplicate login found: $($Duplicate.Name)"
-}
-
-# Note: Adjust the properties as needed for your environment.
+version https://git-lfs.github.com/spec/v1
+oid sha256:29ec96e9309ef290c2562ed45d51a3f64bd9d03e5548d6528b1a9e31a314737a
+size 514

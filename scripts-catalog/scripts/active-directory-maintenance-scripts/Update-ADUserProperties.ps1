@@ -1,14 +1,3 @@
-# Script: Update-ADUserProperties.ps1
-# Description: Updates specific properties of a user account.
-
-# Define user and properties
-$Username = "jdoe"
-$Title = "Senior Engineer"
-$Department = "Engineering"
-
-# Update the user
-Set-ADUser -Identity $Username -Title $Title -Department $Department
-
-Write-Output "Updated user '$Username' with Title: $Title and Department: $Department."
-
-# Note: Adjust properties and user as required.
+version https://git-lfs.github.com/spec/v1
+oid sha256:2df329a0e7409d22185649a649570b15c2493f7a383ebb6c16f5093042fb60ea
+size 444
